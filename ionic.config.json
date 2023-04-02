@@ -1,0 +1,7 @@
+{
+  "name": "Ionic React GoogleSheets Starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
