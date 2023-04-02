@@ -13,9 +13,9 @@ const Info: React.FC = () => {
   const title = "Info"
 
   const appDetails = {
-    title: process.env.REACT_APP_TITLE,
-    subtitle: process.env.REACT_APP_SUBTITLE,
-    url: process.env.REACT_APP_URL,
+    title: process.env.REACT_APP_TITLE || 'Application Title',
+    subtitle: process.env.REACT_APP_SUBTITLE || 'Application SubTitle',
+    url: process.env.REACT_APP_URL || 'http://localhost:3000',
   }
 
   const getBuildTimeString = () => {
